@@ -1,0 +1,18 @@
+export const zIndexes = {
+  Footer: "-1",
+  prefectureSelect: "10",
+  switchLabel: "10",
+  switchTop: "20",
+  imageSliderImage: "30",
+  imageSliderArrow: "40",
+  itemDetailTabs: "50",
+  bottomFixedArea: "59",
+  tabNavigation: "59",
+  headerBar: "60",
+  colorCircle: "1000",
+  modalOverlay: "1000",
+  modalBody: "1001",
+  modalBodyHeader: "1002",
+  imageModalBody: "1004",
+  hamburgerMenu: "9999",
+};
