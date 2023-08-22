@@ -7,7 +7,7 @@ const ContactPresenterWrapper = styled.div`
   margin: 0 16px;
 
   ${({ theme }) => theme.media.tablet} {
-    margin: 0 auto;
+    margin: 32px auto;
   }
 `;
 

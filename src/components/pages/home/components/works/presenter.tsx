@@ -13,7 +13,7 @@ const WorksPresenterWrapper = styled.div`
   margin: 0 16px 104px;
 
   ${({ theme }) => theme.media.tablet} {
-    margin: 0 auto;
+    margin: 0 auto 104px;
   }
 
   a {
