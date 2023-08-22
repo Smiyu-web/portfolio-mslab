@@ -86,10 +86,10 @@ const WorksPresenter = () => {
 
       <WorkCardsWrapper>
         {WORK_PROJECTS.map((project: WorkProjectType) => (
-          <WorkCard project={project} />
+          <WorkCard project={project} key={project.id} />
         ))}
         {MY_WORK_PROJECTS.map((project: MyWorkProjectType) => (
-          <WorkCard project={project} />
+          <WorkCard project={project} key={project.id} />
         ))}
       </WorkCardsWrapper>
     </WorksPresenterWrapper>
