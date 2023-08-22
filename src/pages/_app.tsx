@@ -2,8 +2,8 @@ import { ReactElement, ReactNode } from "react";
 import type { AppProps } from "next/app";
 import { NextPage } from "next";
 import { ThemeProvider } from "@emotion/react";
-import { GlobalStyles } from "@/themes/global";
-import { defaultTheme } from "./../themes";
+import { GlobalStyles } from "themes/global";
+import { defaultTheme } from "themes";
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;

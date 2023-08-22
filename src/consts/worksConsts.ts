@@ -5,29 +5,52 @@ import pawly from "/public/pawly.jpg";
 import elements from "/public/elements.jpg";
 import anotherWorks from "/public/anotherWorks.jpg";
 import papamo from "/public/papamo.jpg";
+import { StaticImageData } from "next/image";
 
-export const workProjects = [
+export type WorkProjectType = {
+  title: string;
+  id: string;
+  image: StaticImageData;
+  type: string;
+  url: string;
+};
+
+export const WORK_PROJECTS: WorkProjectType[] = [
   {
     title: "PAPAMO株式会社",
     id: "papamo",
     image: papamo,
-    about: "詳細はスキルシートでご確認ください。",
+    type: "詳細はスキルシートでご確認ください。",
+    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
   },
   {
     title: "株式会社 Elements",
     id: "elements",
     image: elements,
-    about: "詳細はスキルシートでご確認ください。",
+    type: "詳細はスキルシートでご確認ください。",
+    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
   },
   {
     title: "株式会社 Another works",
     id: "anotherWorks",
     image: anotherWorks,
-    about: "詳細はスキルシートでご確認ください。",
+    type: "詳細はスキルシートでご確認ください。",
+    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
   },
 ];
 
-export const myProjects = [
+export type MyWorkProjectType = {
+  title: string;
+  id: string;
+  image: StaticImageData;
+  about: string;
+  url: string;
+  git: string;
+  type: string;
+  langs: string[];
+};
+
+export const MY_WORK_PROJECTS: MyWorkProjectType[] = [
   {
     title: "pawly",
     id: "pawly",
@@ -92,7 +115,3 @@ export const myProjects = [
       "A mockup eCommerce website for the select interior shop based in Vancouver, Canada.",
   },
 ];
-
-export const findWork = (id: string) => {
-  return myProjects.find((work) => work.id === id);
-};
