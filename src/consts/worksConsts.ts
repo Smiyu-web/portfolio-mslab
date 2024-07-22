@@ -5,6 +5,7 @@ import pawly from "/public/pawly.jpg";
 import elements from "/public/elements.jpg";
 import anotherWorks from "/public/anotherWorks.jpg";
 import papamo from "/public/papamo.jpg";
+import zabooon from "/public/zabooon.jpg";
 import { StaticImageData } from "next/image";
 
 export type WorkProjectType = {
@@ -17,25 +18,32 @@ export type WorkProjectType = {
 
 export const WORK_PROJECTS: WorkProjectType[] = [
   {
+    title: "株式会社ザブーン",
+    id: "zabooon",
+    image: zabooon,
+    type: "詳細はスキルシートでご確認ください。",
+    url: "https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view",
+  },
+  {
     title: "PAPAMO株式会社",
     id: "papamo",
     image: papamo,
     type: "詳細はスキルシートでご確認ください。",
-    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
+    url: "https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view",
   },
   {
     title: "株式会社 Elements",
     id: "elements",
     image: elements,
     type: "詳細はスキルシートでご確認ください。",
-    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
+    url: "https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view",
   },
   {
     title: "株式会社 Another works",
     id: "anotherWorks",
     image: anotherWorks,
     type: "詳細はスキルシートでご確認ください。",
-    url: "https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view",
+    url: "https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view",
   },
 ];
 

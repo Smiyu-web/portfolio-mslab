@@ -45,7 +45,7 @@ const ContactPresenter = () => {
       <TextArea>
         <span>feel free to email me.</span>
         <EmailWrapper>miyusetoyama@gmail.com</EmailWrapper>
-        <a href="https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view">
+        <a href="https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view">
           <ViewButton>view skill sheet</ViewButton>
         </a>
       </TextArea>

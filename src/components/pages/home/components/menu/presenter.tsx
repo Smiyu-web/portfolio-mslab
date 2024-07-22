@@ -44,7 +44,7 @@ const MenuPresenter = () => {
           <a href="#contact">CONTACT</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1GSse0_OklM5fOwkSFzCqEIBLjg50ka_w/view">
+          <a href="https://drive.google.com/file/d/1XyZxBJGXY2UieLdbOsmYlmNYIfknjb4T/view">
             SKILL SHEET
           </a>
         </li>
